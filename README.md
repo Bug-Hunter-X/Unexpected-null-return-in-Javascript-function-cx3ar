@@ -1,0 +1,2 @@
+# Unexpected null return in Javascript function
+This bug demonstrates an unexpected null return in a Javascript function. The function `foo` is designed to add two numbers, but it returns null if either input is null. This behavior is unexpected and can lead to errors in applications that rely on the function to always return a numerical result. The solution demonstrates the function with a fix handling the case when any of the two inputs is null by returning 0 instead of null.
